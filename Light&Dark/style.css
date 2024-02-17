@@ -1,0 +1,53 @@
+/* METHOD 1 */
+
+/* body {
+    background-color: #e1e1e1;
+    color: black;
+}
+
+@media (prefers-color-scheme){
+    body {
+        background-color: #131213;
+        color: white;
+    }
+} */
+
+/* METHOD 2 */
+
+:root {
+    color-scheme: dark light;
+}
+
+/* METHOD 3 */
+
+/* :root {
+    color-scheme: dark light;
+}
+
+h1, h2, h3 {
+    color: hsl(255, 50%, 30%);
+}
+
+@media (prefers-color-scheme){
+    h1, h2, h3 {
+        color: hsl(255, 50%, 80%);
+    }
+} */
+
+/* METHOD 4  */
+/* h1, h2, h3 {
+    color: hsl(255, 50%, 30%);
+}
+
+@media (prefers-color-scheme){
+    h1, h2, h3 {
+        color: hsl(255, 50%, 80%);
+    }
+} */
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-wrap: balance;
+}
