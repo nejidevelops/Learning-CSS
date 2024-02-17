@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(90deg, #f25c00, #ec4559, #bf4686, #41537f, #2f4858);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  font-style: italic;
+  background-repeat: no-repeat;
+  background-size: cover;
+  shape-margin: 1rem;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+section > img {
+  width: 229px;
+  height: 229px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.orbit {
+  top: 50%;
+  left: 50%;
+  transform: translate(0%, 0%);
+  width: 500px;
+  height: 500px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.orbit .icon {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  background-color: white;
+}
+
+.icon:nth-child(1) {
+  top: 0%;
+  left: 43%;
+  transform: translate(-50%, -50%);
+}
+
+.icon:nth-child(2) {
+  top: 30%;
+  left: 4%;
+  transform: translate(-50%, -50%);
+}
+
+.icon:nth-child(3) {
+  top: 75%;
+  left: 8%;
+  transform: translate(-50%, -50%);
+}
+
+.icon:nth-child(4) {
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.icon:nth-child(5) {
+  top: 70%;
+  left: 95%;
+  transform: translate(-50%, -50%);
+}
+
+.icon:nth-child(6) {
+  top: 20%;
+  left: 88%;
+  transform: translate(-50%, -50%);
+}
